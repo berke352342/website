@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset= "utf-8">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1">
+    <meta name= "description" content="this week we are using semantic elements">
+    <meta name= "robots" content= "noindex, nofollow">  
+
+    <title> Week 2 | Semantic Elements </title>
+</head>
+<body>
+<header>
+
+ <div>
+  <p> This is a logo </p>
+ </div>
+ <nav>
+   <menu>
+    <li> <a href="index.html" target="_blank">New Tab</a> </li>
+    <li> <a href="index.html" target="_self">Same Tab</a> </li>
+   </menu>
+ </nav>
+</header>
+
+<section>
+ <h1> I am the main heading element </h1>
+ <h2> I am sub-heading  </h2>
+</section>
+
+<main>
+
+<section>
+ <h3> I am the section title </h3>
+ <p> Hello everyone im the paragraf </p>
+ <p> This is a <mark> important paragraf guys </mark> take care of yourself </p>
+</section>
+
+<section>
+<form action="somephpfile.php" method="post" enctype="multipart/form-data">
+<label> Your Name (Required) </label>
+<br>
+<input type="text" name="name" required>
+<br>
+<p> <input type="email" required placeholder="Email (Required)"> </p>
+
+<label> Password </label>
+<br>
+<input type="password" name="pword" required>
+<br>
+
+<label> Pick One: </label>
+<br>
+<input type="radio" id="html" name="fav_lang" value="HTML">
+<label for="html"> HTML </label>
+<br>
+<input type="radio" id="css" name="fav_lang" value="CSS">
+<label for="css"> CSS </label>
+<br>
+
+<label> Check all that apply </label>
+<br>
+<input type="checkbox" id="choice1" name="choice1" value="Choice 1">
+<label for="choice1"> Choice 1 </label>
+<br>
+<input type="checkbox" id="choice2" name="choice2" value="Choice 2">
+<label for="choice2"> Choice 2 </label>
+<br>
+<label> Pick a number between 1 and 10 </label>
+<br>
+<input type="number" min="1" max="10">
+<br>
+<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="(123)456-7890">  
+<br>
+<input type="submit" value="Send">
+</form>
+</section>
+</main>
+<aside>
+  <article>
+    <h4> Article Title </h4>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In, quasi? </p>
+  </article>
+</aside>
+
+<footer>
+  <h6>  I am footer... nothing to see here </h6>
+</footer>
+</body>
+</html>
